@@ -1,0 +1,6 @@
+.gitignore
+*/.gitignore      # ignore files in sub directories
+*/.gitkeep
+.idea/*
+LICENSE.txt
+README.md
