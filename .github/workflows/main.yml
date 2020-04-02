@@ -34,7 +34,7 @@ jobs:
           run: mv /tmp/repo-name/assets/css assets/
 
         - name: Add and Commit changes to pr-pages branch
-          run: |
+          run:
             git config --local user.email 'action@github.com'
             git config --local user.name 'GitHub Action'
             git add assets/css/*
@@ -45,7 +45,7 @@ jobs:
           with:
             github_token: ${{ secrets.TOKEN }}
             branch: master
-            
+
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
