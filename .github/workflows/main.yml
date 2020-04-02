@@ -1,11 +1,14 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 name: Publish Website
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
       with:
         fetch-depth: 2
     - name: FTP-Deploy-Action
