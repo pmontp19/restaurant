@@ -1921,6 +1921,16 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+.image.brand {
+  display: block;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+.image.brand img {
+  width: 70%;
+}
+
 .image.fit {
   display: block;
   margin: 0 0 2em 0;
