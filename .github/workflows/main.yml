@@ -31,7 +31,7 @@ jobs:
               fetch-depth: 1
 
         - name: Move compiled CSS to path within master branch
-          run: mv /tmp/repo-name/assets/css assets/
+          run: cp -a /tmp/repo-name/assets/css/. assets/css/
 
         - name: Add and Commit changes to pr-pages branch
           run:
@@ -48,6 +48,7 @@ jobs:
 
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
+    needs: [build_css]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
