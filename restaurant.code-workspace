@@ -16,6 +16,8 @@
 				"extensionName": ".css",
 				"savePath": "~/../css"
 			}
-		]
+		],
+		"liveServer.settings.CustomBrowser": "firefox:PrivateMode",
+		"liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
 	}
 }
