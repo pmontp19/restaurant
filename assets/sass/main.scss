@@ -638,6 +638,15 @@
 			}
 		}
 
+		&.brand {
+			display: block;
+			margin: 0 0 10px 0;
+			width: 100%;
+			img {
+				width: 70%; 
+			}
+		}
+
 		&.fit {
 			display: block;
 			margin: 0 0 _size(element-margin) 0;
