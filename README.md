@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9672f2b-43be-4b3d-9093-73dc26ffd472/deploy-status)](https://app.netlify.com/sites/calgallisa/deploys)
+![Publish Website](https://github.com/pmontp19/restaurant/workflows/Publish%20Website/badge.svg?branch=master)
 
 Solid State by HTML5 UP
 html5up.net | @ajlkn
