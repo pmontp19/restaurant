@@ -33,7 +33,9 @@ const Home = () => {
         <Button href={buttonLink}>{buttonText}</Button>
         {customButtons &&
           customButtons.map(({ text, link, variant }) => (
-            <Button href={link} variant={variant}>{text}</Button>
+            <Button href={link} variant={variant}>
+              {text}
+            </Button>
           ))}
       </div>
     </section>
@@ -102,7 +104,7 @@ const Home = () => {
             {
               text: 'Visita virtual',
               link: 'https://goo.gl/maps/sA5NtgZAaX5CDJic9',
-							variant: "outline"
+              variant: 'outline'
             }
           ]}
         />
@@ -115,6 +117,26 @@ const Home = () => {
           buttonLink="/historia"
           style={1}
         />
+      </section>
+
+      <section class="bg-red-500 text-center pt-20 pb-14 block">
+        <div class="mx-auto aspect-w-16 aspect-h-9 w-11/12">
+          <iframe
+            src="https://www.youtube.com/embed/TktJhmXgoTs"
+            title="Cal Gallisa Restaurant a Reus"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="bg-transparent text-center pt-20 pb-14 px-10  block">
+        <div class="text-center max-w-7xl mx-auto">
+          <header>
+						<h2>Troba'ns</h2>
+					</header>
+        </div>
       </section>
     </div>
   )
