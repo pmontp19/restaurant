@@ -2,7 +2,7 @@ import { h } from 'preact'
 
 const Button = ({ children, variant, ...props }) => {
   const commonClasses =
-    'px-8 py-2.5 mr-2 mb-2 font-bold rounded-sm text-sm tracking-wider no-underline text-ellipsis appearance-none cursor-pointer inline-block uppercase text-center overflow-hidden align-baseline'
+    'px-8 py-2.5 mr-2 mb-2 font-bold rounded-sm text-sm tracking-wider no-underline text-ellipsis appearance-none cursor-pointer inline-flex text-center items-center uppercase justify-center overflow-hidden align-baseline'
   if (variant === 'outline') {
     return (
       <a

@@ -48,8 +48,8 @@ const Header = () => {
               <Link
                 href="/"
                 onClick={toggleMenu}
-                activeClassName="md:bg-transparent md:text-white font-bold"
-                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                activeClassName="md:bg-transparent md:text-slate-900 font-bold"
+                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Inici
               </Link>
@@ -58,8 +58,8 @@ const Header = () => {
               <Link
                 href="/menu"
                 onClick={toggleMenu}
-                activeClassName="md:bg-transparent md:text-white font-bold"
-                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                activeClassName="md:bg-transparent md:text-slate-900 font-bold"
+                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Menú
               </Link>
@@ -68,8 +68,8 @@ const Header = () => {
               <Link
                 href="/espais"
                 onClick={toggleMenu}
-                activeClassName="md:bg-transparent md:text-white font-bold"
-                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                activeClassName="md:bg-transparent md:text-slate-900 font-bold"
+                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Espais
               </Link>
@@ -78,8 +78,8 @@ const Header = () => {
               <Link
                 href="/historia"
                 onClick={toggleMenu}
-                activeClassName="md:bg-transparent md:text-white font-bold"
-                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                activeClassName="md:bg-transparent md:text-slate-900 font-bold"
+                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Història
               </Link>
@@ -88,8 +88,8 @@ const Header = () => {
               <Link
                 href="/contacte"
                 onClick={toggleMenu}
-                activeClassName="md:bg-transparent md:text-white"
-                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                activeClassName="md:bg-transparent md:text-slate-900 font-bold"
+                class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contacte
               </Link>
