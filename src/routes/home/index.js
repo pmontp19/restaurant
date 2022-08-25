@@ -13,7 +13,7 @@ const Home = () => {
     style = 1,
     customButtons
   }) => (
-    <section class="bg-black/10 md:flex md:items-center block">
+    <section class="bg-black/10 md:flex md:items-center block justify-between">
       <div
         class={`md:w-2/5 w-full inline-block relative ${
           style === 1 ? 'order-1' : 'order-2'
