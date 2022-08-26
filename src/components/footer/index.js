@@ -48,7 +48,7 @@ const Footer = () => {
         </li>
       </ul>
       <ul class="uppercase">
-        <li class="block sm:inline-block py-2">Mencions legals</li>
+        <li class="block sm:inline-block py-2 hover:text-white cursor-pointer"><a href='#'>Mencions legals</a></li>
         <li class="block ml-0 pl-0 sm:border-l-slate-500/50 py-2 sm:border-l sm:inline-block sm:ml-4 sm:pl-4">&copy; {(new Date().getFullYear())} Cal Gallisà</li>
       </ul>
     </footer>
