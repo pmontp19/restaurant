@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <nav class="sticky top-0 z-40 backdrop-blur transition-colors duration-500 bg-g:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/90 supports-backdrop-blur:bg-white/60 dark:bg-transparent px-2 sm:px-4 py-2.5 uppercase">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="https://www.calgallisa.com/" class="flex items-center">
+        <a href="/" class="flex items-center">
           <img
             src="/assets/images/mini.png"
             class="mr-3 h-6 sm:h-9"
