@@ -25,7 +25,7 @@ const Spotlight = ({
       <img class="block w-full" src={imageSrc} alt={imageAlt} />
     </div>
     <div
-      class={`md:w-3/5 w-full text-center md:text-left max-w-none pt-16 pb-8 px-8 md:pt-8 md:pb-0.5 md:px-16 ${
+      class={`md:w-3/5 w-full text-center md:text-left max-w-none pt-10 px-8 pb-6 md:pt-8 md:px-14 ${
         style === 1 ? 'order-2' : 'order-1'
       } md:max-w-3xl text-white`}
     >
@@ -49,7 +49,7 @@ const Home = () => {
     <div
       style={{
         background:
-          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.png)',
+          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.webp)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -57,7 +57,7 @@ const Home = () => {
       }}
       class="scroll-smooth"
     >
-      <Hero isLanding={true}/>
+      <Hero isLanding={true} />
 
       <section id="one" class="bg-zinc-700 p-0 m-0 border-0">
         <Spotlight
