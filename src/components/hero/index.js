@@ -4,7 +4,7 @@ import Button from '../button'
 const Hero = ({ isLanding, title, subtitle, cta }) => {
   if (isLanding) {
     return (
-      <section class="flex flex-col justify-center h-[calc(100vh_-_60px)] min-h-[35em] relative text-center overflow-hidden">
+      <section class="flex flex-col justify-center h-auto sm:h-[calc(100vh_-_60px)] min-h-[28em] sm:px-0 px-5 pt-16 pb-10 relative text-center overflow-hidden">
         <div>
           <h2 class="transform scale-100 transition-transform duration-500 inline-block font text-3xl opacity-100 relative mb-6">
             <img src="/assets/images/logo_negatiu.svg" />
@@ -16,7 +16,7 @@ const Hero = ({ isLanding, title, subtitle, cta }) => {
             <br />
           </p>
         </div>
-        <a href="#one" class="mt-20">
+        <a href="#one" class="mt-20 sm:block hidden ">
           <span class="text-white text-sm uppercase">Descobreix-nos</span>
 
           <div

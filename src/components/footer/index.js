@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer class="bg-neutral-800 md:pt-14 md:px-8 md:pb-10 pt-6 pb-4 text-center block ">
       <ul class="cursor-default list-none mb-8">
-        <li class="inline-block pr-4 hover:text-white">
+        <li class="inline-block transition-colors pr-4 hover:text-white">
           <a href="https://www.facebook.com/calgallisa/">
             <svg
               fill="currentColor"
@@ -18,7 +18,7 @@ const Footer = () => {
             </svg>
           </a>
         </li>
-        <li class="inline-block pr-4 hover:text-white">
+        <li class="inline-block transition-colors pr-4 hover:text-white">
           <a href="https://www.instagram.com/cal_gallisa/">
             <svg
               fill="currentColor"
@@ -32,7 +32,7 @@ const Footer = () => {
             </svg>
           </a>
         </li>
-        <li class="inline-block hover:text-white">
+        <li class="inline-block transition-colors hover:text-white">
           <a href="https://g.page/cal_gallisa?gm">
             <svg
               fill="currentColor"
@@ -48,7 +48,7 @@ const Footer = () => {
         </li>
       </ul>
       <ul class="uppercase">
-        <li class="block sm:inline-block py-2 hover:text-white cursor-pointer"><a href='#'>Mencions legals</a></li>
+        <li class="block sm:inline-block py-2 transition-colors hover:text-white cursor-pointer"><a href='#'>Mencions legals</a></li>
         <li class="block ml-0 pl-0 sm:border-l-slate-500/50 py-2 sm:border-l sm:inline-block sm:ml-4 sm:pl-4">&copy; {(new Date().getFullYear())} Cal Gallisà</li>
       </ul>
     </footer>
