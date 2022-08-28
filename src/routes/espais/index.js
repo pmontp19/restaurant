@@ -6,7 +6,7 @@ const Espais = () => {
     <div
       style={{
         background:
-          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.png)',
+          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.webp)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -16,70 +16,110 @@ const Espais = () => {
     >
       <Hero
         isLanding={false}
-        cta={{text: 'Visita virtual', link: 'https://goo.gl/maps/sA5NtgZAaX5CDJic9'}}
+        cta={{
+          text: 'Visita virtual',
+          link: 'https://goo.gl/maps/sA5NtgZAaX5CDJic9'
+        }}
         title="Espais"
         subtitle="Disposem d'espais íntims per a celebracions d'amics, grups i esdeveniments."
       />
 
-      <article class="bg-slate-50 pt-16 pb-8 m-0 border-0">
-        <section class="overflow-hidden text-gray-700 ">
-          <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
-            <h3 class="text-zinc-700 tracking-widest leading-7 font-bold uppercase mb-4 text-xl">SALA REFUGI I SALA SOTERRANI</h3>
-            <div class="flex flex-wrap -m-1 md:-m-2">
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                  />
-                </div>
-              </div>
+      <article class="bg-slate-50 dark:bg-slate-900 pt-16 pb-8 m-0 border-0">
+        <section class="overflow-hidden text-gray-700 p-8">
+          <h3 class="dark:text-slate-50 uppercase text-2xl relative mb-4 leading-7 font-extrabold tracking-widest font-sans">
+            Sala refugi i sala soterrani
+          </h3>
+          <div class="grid grid-flow-col grid-rows-3 grid-cols-2 gap-7">
+            <div>
+              <img
+                src="/assets/images/sales/sala-refugi1.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-refugi2.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-refugi3.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-refugi4.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-refugi5.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-refugi6.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+
+          <h3 class="mt-16 dark:text-slate-50 uppercase text-2xl relative mb-4 leading-7 font-extrabold tracking-widest font-sans">
+            Sala Mercadal i Barra
+          </h3>
+          <div class="grid grid-flow-col grid-rows-3 grid-cols-2 gap-7">
+            <div>
+              <img
+                src="/assets/images/sales/sala-mercadal1.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-mercadal2.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-mercadal3.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-mercadal4.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-mercadal5.webp"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/sales/sala-mercadal6.webp"
+                alt=""
+                loading="lazy"
+              />
             </div>
           </div>
         </section>
