@@ -6,7 +6,7 @@ const Espais = () => {
     <div
       style={{
         background:
-          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.png)',
+          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.webp)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
