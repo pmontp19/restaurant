@@ -24,7 +24,7 @@ const Spotlight = ({
         style === 1 ? 'order-1' : 'order-2'
       }`}
     >
-      <img class="block w-full" src={imageSrc} alt={imageAlt} />
+      <img class="block w-full" src={imageSrc} alt={imageAlt} loading="lazy" />
     </div>
     <div
       class={`md:w-3/5 w-full text-center md:text-left max-w-none pt-10 px-8 pb-6 md:pt-8 md:px-14 ${
@@ -99,13 +99,16 @@ const Home = () => {
       </section>
 
       <section class="bg-red-500 dark:bg-red-600 text-center pt-20 pb-14 block">
-        <LazyTube
+        {typeof window !== "undefined" && (
+          <LazyTube
           url="https://www.youtube-nocookie.com/embed/TktJhmXgoTs"
           title="Cal Gallisa Restaurant a Reus"
         />
+          )}
+        
       </section>
 
-      <section class="bg-transparent text-center pt-20 pb-14 block">
+      <section id="cta" class="bg-transparent text-center pt-20 pb-14 block">
         <div class="justify-center md:flex block text-white">
           <header class="order-1 md:pr-8 block md:text-left text-center">
             <h2 class="uppercase leading-7 text-2xl font-extrabold tracking-widest mb-2">
