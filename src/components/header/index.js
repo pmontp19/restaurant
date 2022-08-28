@@ -6,6 +6,16 @@ const Header = () => {
     const menu = document.getElementById('navbar-default')
     menu.classList.toggle('hidden')
   }
+
+  // document.addEventListener('click', (e) => {
+  //   const container = document.getElementsByClassName('z-40')[0]
+  //   const menu = document.getElementById('navbar-default')
+
+  //   if (container.contains(e.target) && menu.classList.contains('hidden')) {
+  //     menu.classList.add('hidden')
+  //   }
+  // })
+
   return (
     <nav class="sticky top-0 z-40 backdrop-blur transition-colors duration-500 bg-g:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/90 supports-backdrop-blur:bg-white/60 dark:bg-transparent px-2 sm:px-4 py-2.5 uppercase">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
@@ -86,7 +96,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/contacte"
+                href="/#cta"
                 onClick={toggleMenu}
                 activeClassName="md:bg-transparent md:text-slate-900 font-bold"
                 class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
