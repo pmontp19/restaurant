@@ -1,6 +1,8 @@
 import { h } from 'preact'
 import Button from '../../components/button'
+import CookieConsent from '../../components/cookies'
 import Hero from '../../components/hero'
+import LazyTube from '../../components/lazytube'
 
 const Spotlight = ({
   title,
@@ -96,16 +98,11 @@ const Home = () => {
         />
       </section>
 
-      <section class="bg-red-500 text-center pt-20 pb-14 block">
-        <div class="mx-auto aspect-w-16 aspect-h-9 w-11/12">
-          <iframe
-            src="https://www.youtube.com/embed/TktJhmXgoTs"
-            title="Cal Gallisa Restaurant a Reus"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen=""
-          ></iframe>
-        </div>
+      <section class="bg-red-500 dark:bg-red-600 text-center pt-20 pb-14 block">
+        <LazyTube
+          url="https://www.youtube-nocookie.com/embed/TktJhmXgoTs"
+          title="Cal Gallisa Restaurant a Reus"
+        />
       </section>
 
       <section class="bg-transparent text-center pt-20 pb-14 block">
