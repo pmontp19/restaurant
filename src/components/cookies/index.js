@@ -30,7 +30,7 @@ const CookieConsent = () => {
   return (
     <div id="useCookies" class="z-10 fixed bottom-0 right-0 p-3 shadow-sm">
       <div
-        class="w-72 bg-white dark:bg-slate-900 rounded-lg shadow-md p-6"
+        class="w-72 bg-white dark:bg-slate-900 rounded-lg shadow-md p-6 dark:shadow-sm dark:shadow-slate-400"
         style="cursor: auto;"
       >
         <div class="w-16 mx-auto relative -mt-10 mb-3">
