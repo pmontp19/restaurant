@@ -1,4 +1,5 @@
 import { h } from 'preact'
+import {route} from 'preact-router'
 import { useState } from 'preact/hooks'
 
 const CookieConsent = () => {
@@ -20,6 +21,7 @@ const CookieConsent = () => {
   const clickDetails = () => {
     console.log('click details')
     setDetails(true)
+    route('/legal')
   }
 
   if (consent) {
