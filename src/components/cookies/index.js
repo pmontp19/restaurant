@@ -1,9 +1,9 @@
 import { h } from 'preact'
 import {route} from 'preact-router'
-import { useState } from 'preact/hooks'
+import { useEffect, useState } from 'preact/hooks'
 
 const CookieConsent = () => {
-  const [consent, setConsent] = useState(document.cookie.split(';').find((row) => row.startsWith('consent='))?.split('=')[1] || false)
+  const [visible, setVisible] = useState(false)
   const [details, setDetails] = useState(false)
 
   const getCookies = () => {
@@ -14,8 +14,8 @@ const CookieConsent = () => {
   }
 
   const clickAccept = () => {
-    setConsent(true)
     setCookie('consent=true;max-age=31536000')
+    setVisible(false)
   }
 
   const clickDetails = () => {
@@ -24,7 +24,18 @@ const CookieConsent = () => {
     route('/legal')
   }
 
-  if (consent) {
+  useEffect(() => {
+    // document.cookie.split(';').find((row) => row.startsWith('consent='))?.split('=')[1] || false
+    const cookies = getCookies()
+    const consent = cookies.find(c => c.includes('consent'))
+    if (consent) {
+      setVisible(false)
+    } else {
+      setVisible(true)
+    }
+  },[])
+
+  if (!visible) {
     return null
   }
 
