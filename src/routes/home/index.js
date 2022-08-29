@@ -1,9 +1,8 @@
 import { h } from 'preact'
 import Button from '../../components/button'
-import CookieConsent from '../../components/cookies'
+import HeaderWrapper from '../../components/headerWrapper/headerWrapper'
 import Hero from '../../components/hero'
 import LazyTube from '../../components/lazytube'
-import style from './style.css'
 
 const Spotlight = ({
   title,
@@ -17,7 +16,7 @@ const Spotlight = ({
 }) => (
   <section
     class={`${
-      style === 1 ? 'bg-black/5' : 'bg-black/10'
+      style === 1 ? 'bg-black/5 dark:bg-slate-900/95' : 'bg-black/10 dark:bg-slate-900/90'
     } md:flex md:items-center block justify-between`}
   >
     <div
@@ -49,10 +48,7 @@ const Spotlight = ({
 
 const Home = () => {
   return (
-    <div
-      class={`${style.wrapper} bg-fixed bg-cover bg-center bg-no-repeat`}
-    >
-      
+    <HeaderWrapper>
       <Hero isLanding={true} />
 
       <section id="one" class="bg-zinc-700 p-0 m-0 border-0">
@@ -93,13 +89,12 @@ const Home = () => {
       </section>
 
       <section class="bg-red-500 dark:bg-red-600 text-center pt-20 pb-14 block">
-        {typeof window !== "undefined" && (
+        {typeof window !== 'undefined' && (
           <LazyTube
-          url="https://www.youtube-nocookie.com/embed/TktJhmXgoTs"
-          title="Cal Gallisa Restaurant a Reus"
-        />
-          )}
-        
+            url="https://www.youtube-nocookie.com/embed/TktJhmXgoTs"
+            title="Cal Gallisa Restaurant a Reus"
+          />
+        )}
       </section>
 
       <section id="cta" class="bg-transparent text-center pt-20 pb-14 block">
@@ -138,7 +133,7 @@ const Home = () => {
           </ul>
         </div>
       </section>
-    </div>
+    </HeaderWrapper>
   )
 }
 

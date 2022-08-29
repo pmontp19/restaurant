@@ -1,20 +1,11 @@
 import { h } from 'preact'
 import { Link } from 'preact-router'
+import HeaderWrapper from '../../components/headerWrapper/headerWrapper'
 import Hero from '../../components/hero'
 
 const Historia = () => {
   return (
-    <div
-      style={{
-        background:
-          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.png)',
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
-      class="scroll-smooth"
-    >
+    <HeaderWrapper>
       <Hero
         isLanding={false}
         title="Història"
@@ -22,7 +13,7 @@ const Historia = () => {
       />
 
       <article class="bg-slate-50 dark:bg-slate-900 pt-16 pb-8 m-0 border-0">
-        <section class="overflow-hidden text-gray-700 p-8">
+        <section class="overflow-hidden text-gray-700 dark:text-gray-50 p-8">
           <div class="w-11/12 mx-auto">
             <h3 class="uppercase leading-10 tracking-widest font-extrabold text-xl">
               En paraules de Conrad Gallisà
@@ -46,7 +37,7 @@ const Historia = () => {
             </p>
             <hr class="border-gray-300 border-0 border-b-2 border-solid my-10" />
             <h3 class="uppercase leading-10 tracking-widest font-extrabold text-xl">
-            EL TREBALL DE JOBACASÉN
+              EL TREBALL DE JOBACASÉN
             </h3>
             <span class="max-w-[40%] float-left mr-4 top-1 rounded-sm inline-block border-0 relative">
               <img
@@ -54,15 +45,22 @@ const Historia = () => {
                 alt="Nanos a la plaça Mercadal"
               ></img>
             </span>
-            
+
             <p class="mb-6 tracking-widest">
-            Joan Baptista Cabré Sendrós (Riudoms 1952).
+              Joan Baptista Cabré Sendrós (Riudoms 1952).
             </p>
-            <p><Link class="underline text-red-500 hover:text-blue-800 visited:text-red-900" href="/espais">Descobreix més sobre els espais del restaurant.</Link></p>
+            <p>
+              <Link
+                class="underline dark:text-red-100 text-red-500 hover:text-blue-800 visited:text-red-900 dark:visited:text-red-500"
+                href="/espais"
+              >
+                Descobreix més sobre els espais del restaurant.
+              </Link>
+            </p>
           </div>
         </section>
       </article>
-    </div>
+    </HeaderWrapper>
   )
 }
 
