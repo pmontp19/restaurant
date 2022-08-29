@@ -3,6 +3,7 @@ import Button from '../../components/button'
 import CookieConsent from '../../components/cookies'
 import Hero from '../../components/hero'
 import LazyTube from '../../components/lazytube'
+import style from './style.css'
 
 const Spotlight = ({
   title,
@@ -49,16 +50,9 @@ const Spotlight = ({
 const Home = () => {
   return (
     <div
-      style={{
-        background:
-          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/banner.webp)',
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
-      class="scroll-smooth"
+      class={`${style.wrapper} bg-fixed bg-cover bg-center bg-no-repeat`}
     >
+      
       <Hero isLanding={true} />
 
       <section id="one" class="bg-zinc-700 p-0 m-0 border-0">

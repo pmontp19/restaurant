@@ -7,7 +7,7 @@ const Hero = ({ isLanding, title, subtitle, cta }) => {
     return (
       <section class="flex flex-col justify-center h-auto sm:h-[calc(100vh_-_60px)] min-h-[28em] sm:px-0 px-5 pt-16 pb-10 relative text-center overflow-hidden text-slate-50 dark:text-black">
         <div>
-          <h2 class="w-11/12 transform scale-100 transition-transform duration-500 inline-block text-3xl opacity-100 relative mb-6">
+          <h2 class="w-11/12 transform scale-100 inline-block text-3xl opacity-100 relative mb-6">
             <LogoIcon />
           </h2>
           <p class="uppercase tracking-wide text-md">
