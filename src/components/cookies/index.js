@@ -1,30 +1,29 @@
-import { h, render } from 'preact'
-import Button from '../button'
+import { h } from 'preact'
+import { useState } from 'preact/hooks'
 
 const CookieConsent = () => {
-  const getCookie = () => {
-    console.log('getcookies:', document.cookie)
+  const [consent, setConsent] = useState(document.cookie.split(';').find((row) => row.startsWith('consent='))?.split('=')[1] || false)
+  const [details, setDetails] = useState(false)
+
+  const getCookies = () => {
     return (document.cookie || '').split(';')
   }
   const setCookie = (c) => {
-    console.log('setcookies before:', document.cookie)
-    let cookies = document.cookie
-    document.cookie = cookies + ';' + c
-    console.log('setcookies after:', document.cookie)
+    document.cookie = c
   }
 
-  const root = null
-
   const clickAccept = () => {
-    console.log('click accept')
-    const d = document.getElementById('useCookies')
-    setCookie('cookie_consent_accepted=true;max-age=\" + 60 * 60 * 24 * 30;')
-    render(<></>, d, root)
+    setConsent(true)
+    setCookie('consent=true;max-age=31536000')
   }
 
   const clickDetails = () => {
     console.log('click details')
-    this.setState({ details: true })
+    setDetails(true)
+  }
+
+  if (consent) {
+    return null
   }
 
   return (
@@ -46,8 +45,8 @@ const CookieConsent = () => {
         </span>
         <div class="flex items-center justify-between">
           <a
-            class="text-xs dark:text-gray-400 text-gray-600 mr-1 hover:text-gray-800 dark:hover:text-gray-100"
-            href="#"
+            class="text-xs dark:text-gray-400 text-gray-600 mr-1 hover:text-gray-800 dark:hover:text-gray-100 hover:cursor-pointer"
+            onClick={clickDetails}
           >
             Més informació
           </a>
