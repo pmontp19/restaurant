@@ -58,7 +58,7 @@ const Home = () => {
           imageSrc="/assets/images/sala-mercadal.webp"
           imageAlt="Carta i menu"
           buttonText="Menús"
-          buttonLink="/carta"
+          buttonLink="https://app.cartamovil.com/calgallisa/14384/productos/11139"
           style={1}
         />
         <Spotlight
