@@ -40,7 +40,6 @@ const LazyTube = ({ url, title }) => {
         <iframe
           src={url}
           frameBorder="0"
-          allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
           allowFullScreen
           title={title}
         ></iframe>

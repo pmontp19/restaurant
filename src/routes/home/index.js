@@ -55,7 +55,7 @@ const Home = () => {
         <Spotlight
           title="Cuina i menús"
           description="Gastronomia mediterrània. Visita la nostra carta."
-          imageSrc="/assets/images/sala-mercadal.jpg"
+          imageSrc="/assets/images/sala-mercadal.webp"
           imageAlt="Carta i menu"
           buttonText="Menús"
           buttonLink="/carta"
@@ -64,7 +64,7 @@ const Home = () => {
         <Spotlight
           title="Espais del restaurant"
           description="Disposem d'espais íntims per a celebracions d'amics, grups i esdeveniments."
-          imageSrc="/assets/images/refugi01.jpg"
+          imageSrc="/assets/images/refugi01.webp"
           imageAlt="Espais del restaurant"
           buttonText="Espais"
           buttonLink="/espais"
@@ -80,7 +80,7 @@ const Home = () => {
         <Spotlight
           title="Gallisà, un comerç centenari"
           description="L'esparteria Gallisà era una històrica botiga de Reus. L'última esparteria que quedava a la ciutat i que entre les seves parets acumulava més d'un segle de servei."
-          imageSrc="/assets/images/historia-gallisa.jpg"
+          imageSrc="/assets/images/historia-gallisa.webp"
           imageAlt="Nanos de reus i Cal Gallisa"
           buttonText="Història"
           buttonLink="/historia"
