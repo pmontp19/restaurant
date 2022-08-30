@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { Router } from 'preact-router';
+import AsyncRoute from 'preact-async-route'
 
 import Header from './header/header';
 import Footer from './footer';
@@ -18,9 +19,9 @@ const App = () => (
 		<Header />
 		<Router>
 			<Home path="/" />
-			<Espais path="/espais"/>
-			<Historia path="/historia"/>
-			<Legal path="/legal"/>
+			<AsyncRoute path="/espais" component={Espais} />
+			<AsyncRoute path="/historia" component={Historia} />
+			<AsyncRoute path="/legal" component={Legal} />
 			<NotFound default />
 		</Router>
 		<Footer />

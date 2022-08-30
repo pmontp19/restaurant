@@ -6,7 +6,7 @@
   "scripts": {
     "build": "preact build",
     "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch --https",
+    "dev": "preact watch",
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "preact": "^10.10.6",
+    "preact-async-route": "^2.2.1",
     "preact-render-to-string": "^5.2.2",
     "preact-router": "^4.1.0"
   },
