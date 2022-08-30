@@ -6,6 +6,7 @@ const Button = ({ children, variant, ...props }) => {
   if (variant === 'outline') {
     return (
       <a
+        rel="noopener noreferrer"
         href={props.href}
         class={
           'bg-transparent hover:bg-slate-50 text-white hover:text-slate-700 py-2 px-4 border border-white hover:border-slate-50 ' +
@@ -19,6 +20,7 @@ const Button = ({ children, variant, ...props }) => {
 
   return (
     <a
+      rel="noopener noreferrer"
       href={props.href}
       class={
         'text-white bg-red-500 hover:bg-red-800 focus:ring-4 focus:ring-red-300  dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800 ' +
