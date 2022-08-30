@@ -1,5 +1,5 @@
 import { h } from 'preact'
-import {route} from 'preact-router'
+import { route } from 'preact-router'
 import { useEffect, useState } from 'preact/hooks'
 
 const CookieConsent = () => {
@@ -18,8 +18,8 @@ const CookieConsent = () => {
     setVisible(false)
   }
 
-  const clickDetails = () => {
-    console.log('click details')
+  const clickDetails = (e) => {
+    e.preventDefault()
     setDetails(true)
     route('/legal')
   }
@@ -27,13 +27,13 @@ const CookieConsent = () => {
   useEffect(() => {
     // document.cookie.split(';').find((row) => row.startsWith('consent='))?.split('=')[1] || false
     const cookies = getCookies()
-    const consent = cookies.find(c => c.includes('consent'))
+    const consent = cookies.find((c) => c.includes('consent'))
     if (consent) {
       setVisible(false)
     } else {
       setVisible(true)
     }
-  },[])
+  }, [])
 
   if (!visible) {
     return null
@@ -58,6 +58,7 @@ const CookieConsent = () => {
         </span>
         <div class="flex items-center justify-between">
           <a
+          href="/legal"
             class="text-xs dark:text-gray-400 text-gray-600 mr-1 hover:text-gray-800 dark:hover:text-gray-100 hover:cursor-pointer"
             onClick={clickDetails}
           >
