@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Cal Gallisa - Restaurant a Reus",
+    "description": "Cal Gallisa, restaurant tradicional amb història a Reus. Gaudeix de la nostra cuina local en un entorn únic."
+  },
+  "nav": {
+    "history": "Història",
+    "spaces": "Espais",
+    "menu": "Carta",
+    "location": "Ubicació",
+    "contact": "Contacte",
+    "reservations": "Reserves"
+  },
+  "hero": {
+    "title": "Cal Gallisa",
+    "subtitle": "Tradició i sabor al cor de Reus des de 1950",
+    "viewMenu": "Veure la carta",
+    "contactUs": "Contacta'ns"
+  },
+  "history": {
+    "title": "La nostra història",
+    "paragraph1": "Cal Gallisa va obrir les seves portes l'any 1950 com un petit negoci familiar al centre històric de Reus. L'edifici, que data del segle XVIII, ha estat testimoni de la història de la ciutat.",
+    "paragraph2": "Durant més de 70 anys, hem mantingut viva la tradició culinària de la regió, adaptant-nos als nous temps però sense perdre l'essència que ens caracteritza.",
+    "paragraph3": "Avui, Cal Gallisa és un referent gastronòmic a Reus, on es fusiona la cuina tradicional catalana amb tocs contemporanis, sempre utilitzant productes locals de la màxima qualitat.",
+    "gallery": {
+      "title": "Galeria històrica",
+      "image1": "Cal Gallisa als anys 50",
+      "image2": "La cuina original",
+      "image3": "Celebració del 25è aniversari",
+      "image4": "Renovació del 2010",
+      "viewMore": "Veure més fotografies històriques"
+    }
+  },
+  "spaces": {
+    "title": "Els nostres espais",
+    "description": "Cal Gallisa disposa de dos espais diferenciats amb caràcter propi, cadascun amb el seu encant particular, perfectes per a diferents tipus de celebracions i esdeveniments.",
+    "mercadal": {
+      "title": "Sala Mercadal",
+      "paragraph1": "La Sala Mercadal és el nostre espai principal, amb una decoració elegant i acollidora que combina elements tradicionals amb tocs moderns. Amb capacitat per a 60 comensals, és ideal per a celebracions familiars, dinars d'empresa o qualsevol ocasió especial.",
+      "paragraph2": "Aquesta sala es caracteritza per la seva lluminositat natural durant el dia i per la seva atmosfera càlida i íntima a la nit, gràcies a la seva acurada il·luminació.",
+      "features": {
+        "capacity": "Capacitat: fins a 60 persones",
+        "ideal": "Ideal per a celebracions familiars i esdeveniments d'empresa",
+        "climate": "Climatització",
+        "access": "Accés per a persones amb mobilitat reduïda"
+      },
+      "gallery": "Galeria Sala Mercadal"
+    },
+    "soterrani": {
+      "title": "Sala Soterrani",
+      "paragraph1": "La Sala Soterrani és un espai únic amb voltes de pedra del segle XVIII que ofereix un ambient íntim i exclusiu. Amb capacitat per a 30 comensals, és perfecta per a sopars romàntics, reunions privades o celebracions especials en un entorn amb història.",
+      "paragraph2": "Les seves parets de pedra vista i la il·luminació tènue creen una atmosfera màgica que transporta els comensals a una altra època, mentre gaudeixen de la nostra cuina contemporània.",
+      "features": {
+        "capacity": "Capacitat: fins a 30 persones",
+        "ideal": "Ideal per a sopars íntims i reunions privades",
+        "climate": "Climatització",
+        "decor": "Decoració amb elements històrics originals"
+      },
+      "gallery": "Galeria Sala Soterrani"
+    },
+    "virtualTour": {
+      "title": "Visita virtual",
+      "description": "Explora els nostres espais amb una visita virtual 360° i descobreix cada racó de Cal Gallisa abans de la teva visita.",
+      "button": "Iniciar visita virtual"
+    }
+  },
+  "video": {
+    "title": "Descobreix Cal Gallisa",
+    "description": "Un viatge gastronòmic per la nostra història i els nostres plats"
+  },
+  "menu": {
+    "title": "La nostra carta",
+    "description": "A Cal Gallisa oferim una selecció de plats tradicionals catalans elaborats amb productes frescos i de proximitat.",
+    "starters": {
+      "title": "Entrants",
+      "description": "Deliciosos entrants per començar el teu àpat amb bon peu."
+    },
+    "mains": {
+      "title": "Plats principals",
+      "description": "Especialitats de la casa amb el sabor autèntic de la nostra terra."
+    },
+    "desserts": {
+      "title": "Postres",
+      "description": "Dolços casolans per acabar amb un toc dolç."
+    },
+    "viewFullMenu": "Veure carta completa"
+  },
+  "location": {
+    "title": "On som",
+    "findUs": "Troba'ns",
+    "address": {
+      "name": "Cal Gallisa",
+      "street": "Carrer de Sant Llorenç, 23",
+      "city": "43201 Reus, Tarragona"
+    },
+    "hours": {
+      "title": "Horari",
+      "schedule": "Dilluns a diumenge: 13:00 - 16:00 i 20:00 - 23:00"
+    },
+    "directions": "Com arribar",
+    "contactUs": "Contacta'ns"
+  },
+  "contact": {
+    "title": "Contacte",
+    "getInTouch": "Posa't en contacte",
+    "followUs": "Segueix-nos",
+    "form": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "subject": "Assumpte",
+      "message": "Missatge",
+      "send": "Enviar missatge",
+      "namePlaceholder": "El teu nom",
+      "emailPlaceholder": "El teu correu",
+      "subjectPlaceholder": "Motiu del contacte",
+      "messagePlaceholder": "El teu missatge..."
+    }
+  },
+  "footer": {
+    "aboutUs": "Sobre nosaltres",
+    "history": "Història",
+    "spaces": "Espais",
+    "team": "Equip",
+    "workWithUs": "Treballa amb nosaltres",
+    "gastronomy": "Gastronomia",
+    "menu": "Carta",
+    "privateEvents": "Esdeveniments privats",
+    "giftCards": "Targetes regal",
+    "visitUs": "Visita'ns",
+    "howToGet": "Com arribar",
+    "parking": "Aparcament",
+    "accessibility": "Accessibilitat",
+    "legal": "Legal",
+    "privacy": "Privacitat",
+    "terms": "Condicions",
+    "cookies": "Cookies",
+    "rights": "Tots els drets reservats."
+  },
+  "cookieConsent": {
+    "title": "Utilitzem cookies",
+    "description": "Utilitzem cookies per millorar la teva experiència de navegació, mostrar-te contingut personalitzat i analitzar el nostre trànsit. Pots acceptar totes les cookies, rebutjar les no essencials o personalitzar les teves preferències.",
+    "moreInfo": "Més informació sobre les cookies",
+    "essentialOnly": "Només essencials",
+    "customize": "Personalitzar",
+    "acceptAll": "Acceptar totes",
+    "settings": {
+      "title": "Preferències de cookies",
+      "description": "Configura les teves preferències de cookies. Les cookies essencials són necessàries per al funcionament bàsic del lloc web.",
+      "necessary": {
+        "title": "Cookies essencials",
+        "description": "Necessàries per al funcionament del lloc web. No es poden desactivar."
+      },
+      "analytics": {
+        "title": "Cookies analítiques",
+        "description": "Ens ajuden a entendre com utilitzes el lloc web."
+      },
+      "marketing": {
+        "title": "Cookies de màrqueting",
+        "description": "Utilitzades per mostrar-te anuncis rellevants."
+      },
+      "preferences": {
+        "title": "Cookies de preferències",
+        "description": "Recorden les teves preferències per millorar la teva experiència."
+      },
+      "cancel": "Cancel·lar",
+      "save": "Desar preferències"
+    }
+  },
+  "language": {
+    "ca": "Català",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français"
+  }
+}
