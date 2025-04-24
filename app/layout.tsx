@@ -1,6 +1,7 @@
 import type React from "react"
 import { ThemeProvider } from "@/components/theme-provider"
 import CookieConsent from "@/components/cookie-consent"
+import FloatingWhatsappButton from "@/components/floating-whatsapp-button"
 import "@/app/globals.css"
 import type { Metadata } from "next"
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
           <CookieConsent />
+          <FloatingWhatsappButton />
         </ThemeProvider>
       </body>
     </html>
