@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Cal Gallisa - Restaurant in Reus",
+    "description": "Cal Gallisa, traditional restaurant with history in Reus. Enjoy our local cuisine in a unique setting."
+  },
+  "nav": {
+    "history": "History",
+    "spaces": "Spaces",
+    "menu": "Menu",
+    "location": "Location",
+    "contact": "Contact",
+    "reservations": "Reservations"
+  },
+  "hero": {
+    "title": "Cal Gallisa",
+    "subtitle": "Tradition and flavor in the heart of Reus since 1950",
+    "viewMenu": "View menu",
+    "contactUs": "Contact us"
+  },
+  "history": {
+    "title": "Our history",
+    "paragraph1": "Cal Gallisa opened its doors in 1950 as a small family business in the historic center of Reus. The building, dating from the 18th century, has witnessed the history of the city.",
+    "paragraph2": "For over 70 years, we have kept the culinary tradition of the region alive, adapting to new times without losing the essence that characterizes us.",
+    "paragraph3": "Today, Cal Gallisa is a gastronomic reference in Reus, where traditional Catalan cuisine is fused with contemporary touches, always using local products of the highest quality.",
+    "gallery": {
+      "title": "Historical gallery",
+      "image1": "Cal Gallisa in the 50s",
+      "image2": "The original kitchen",
+      "image3": "25th anniversary celebration",
+      "image4": "Renovation of 2010",
+      "viewMore": "View more historical photographs"
+    }
+  },
+  "spaces": {
+    "title": "Our spaces",
+    "description": "Cal Gallisa has two distinct spaces with their own character, each with its particular charm, perfect for different types of celebrations and events.",
+    "mercadal": {
+      "title": "Mercadal Room",
+      "paragraph1": "The Mercadal Room is our main space, with an elegant and welcoming decoration that combines traditional elements with modern touches. With capacity for 60 diners, it is ideal for family celebrations, business lunches or any special occasion.",
+      "paragraph2": "This room is characterized by its natural light during the day and its warm and intimate atmosphere at night, thanks to its careful lighting.",
+      "features": {
+        "capacity": "Capacity: up to 60 people",
+        "ideal": "Ideal for family celebrations and corporate events",
+        "climate": "Air conditioning",
+        "access": "Access for people with reduced mobility"
+      },
+      "gallery": "Mercadal Room Gallery"
+    },
+    "soterrani": {
+      "title": "Basement Room",
+      "paragraph1": "The Basement Room is a unique space with 18th century stone vaults that offers an intimate and exclusive atmosphere. With capacity for 30 diners, it is perfect for romantic dinners, private meetings or special celebrations in a historic setting.",
+      "paragraph2": "Its exposed stone walls and dim lighting create a magical atmosphere that transports diners to another era, while enjoying our contemporary cuisine.",
+      "features": {
+        "capacity": "Capacity: up to 30 people",
+        "ideal": "Ideal for intimate dinners and private meetings",
+        "climate": "Air conditioning",
+        "decor": "Decoration with original historical elements"
+      },
+      "gallery": "Basement Room Gallery"
+    },
+    "virtualTour": {
+      "title": "Virtual tour",
+      "description": "Explore our spaces with a 360° virtual tour and discover every corner of Cal Gallisa before your visit.",
+      "button": "Start virtual tour"
+    }
+  },
+  "video": {
+    "title": "Discover Cal Gallisa",
+    "description": "A gastronomic journey through our history and our dishes"
+  },
+  "menu": {
+    "title": "Our menu",
+    "description": "At Cal Gallisa we offer a selection of traditional Catalan dishes made with fresh, local products.",
+    "starters": {
+      "title": "Starters",
+      "description": "Delicious starters to begin your meal on the right foot."
+    },
+    "mains": {
+      "title": "Main courses",
+      "description": "House specialties with the authentic flavor of our land."
+    },
+    "desserts": {
+      "title": "Desserts",
+      "description": "Homemade sweets to end with a sweet touch."
+    },
+    "viewFullMenu": "View full menu"
+  },
+  "location": {
+    "title": "Where we are",
+    "findUs": "Find us",
+    "address": {
+      "name": "Cal Gallisa",
+      "street": "Sant Llorenç Street, 23",
+      "city": "43201 Reus, Tarragona"
+    },
+    "hours": {
+      "title": "Hours",
+      "schedule": "Monday to Sunday: 1:00 PM - 4:00 PM and 8:00 PM - 11:00 PM"
+    },
+    "directions": "How to get here",
+    "contactUs": "Contact us"
+  },
+  "contact": {
+    "title": "Contact",
+    "getInTouch": "Get in touch",
+    "followUs": "Follow us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "subjectPlaceholder": "Reason for contact",
+      "messagePlaceholder": "Your message..."
+    }
+  },
+  "footer": {
+    "aboutUs": "About us",
+    "history": "History",
+    "spaces": "Spaces",
+    "team": "Team",
+    "workWithUs": "Work with us",
+    "gastronomy": "Gastronomy",
+    "menu": "Menu",
+    "privateEvents": "Private events",
+    "giftCards": "Gift cards",
+    "visitUs": "Visit us",
+    "howToGet": "How to get here",
+    "parking": "Parking",
+    "accessibility": "Accessibility",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "rights": "All rights reserved."
+  },
+  "cookieConsent": {
+    "title": "We use cookies",
+    "description": "We use cookies to improve your browsing experience, show you personalized content and analyze our traffic. You can accept all cookies, reject non-essential ones or customize your preferences.",
+    "moreInfo": "More information about cookies",
+    "essentialOnly": "Essential only",
+    "customize": "Customize",
+    "acceptAll": "Accept all",
+    "settings": {
+      "title": "Cookie preferences",
+      "description": "Configure your cookie preferences. Essential cookies are necessary for the basic functioning of the website.",
+      "necessary": {
+        "title": "Essential cookies",
+        "description": "Necessary for the website to function. They cannot be disabled."
+      },
+      "analytics": {
+        "title": "Analytics cookies",
+        "description": "They help us understand how you use the website."
+      },
+      "marketing": {
+        "title": "Marketing cookies",
+        "description": "Used to show you relevant advertisements."
+      },
+      "preferences": {
+        "title": "Preference cookies",
+        "description": "They remember your preferences to improve your experience."
+      },
+      "cancel": "Cancel",
+      "save": "Save preferences"
+    }
+  },
+  "language": {
+    "ca": "Català",
+    "es": "Español",
+    "en": "English",
+    "fr": "Français"
+  }
+}
