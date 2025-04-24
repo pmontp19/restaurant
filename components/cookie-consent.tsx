@@ -49,6 +49,11 @@ export default function CookieConsent() {
         setShowBanner(true)
       }
     }
+
+    // Listen for custom event to open settings
+    const handler = () => setShowSettings(true)
+    window.addEventListener("openCookieSettings", handler)
+    return () => window.removeEventListener("openCookieSettings", handler)
   }, [])
 
   const acceptAll = () => {
@@ -205,20 +210,6 @@ export default function CookieConsent() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-
-      {/* Floating button to reopen cookie settings */}
-      {!showBanner && (
-        <Button
-          variant="outline"
-          size="icon"
-          className="fixed bottom-4 left-4 z-50 rounded-full shadow-md bg-white hover:bg-gray-100"
-          onClick={openSettings}
-          title="Configuració de cookies"
-        >
-          <Settings className="h-5 w-5" />
-          <span className="sr-only">Configuració de cookies</span>
-        </Button>
-      )}
     </>
   )
 }

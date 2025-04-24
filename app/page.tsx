@@ -15,6 +15,7 @@ import VideoPlayer from "@/components/video-player";
 import MobileMenu from "@/components/mobile-menu";
 import ImageGallery from "@/components/image-gallery";
 import SiteHeader from "@/components/site-header";
+import CookieSettingsFooterButton from "@/components/cookie-settings-footer-button";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -681,12 +682,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/legal"
-                    className="text-sm text-muted-foreground hover:text-primary"
-                  >
-                    Cookies
-                  </Link>
+                  <CookieSettingsFooterButton />
                 </li>
               </ul>
             </div>
