@@ -44,7 +44,7 @@ export default function VideoPlayer({ title, description, videoUrl }: VideoPlaye
             </div>
           )}
           {!isPlaying && (
-            <img src="/placeholder.svg?height=720&width=1280" alt={title} className="w-full h-full object-cover" />
+            <img src="/images/refugi01.webp" alt={title} className="w-full h-full object-cover" />
           )}
         </div>
       </CardContent>
