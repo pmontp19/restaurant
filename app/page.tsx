@@ -413,7 +413,7 @@ export default function Home() {
             </div>
             <Button size="lg" asChild>
               <a
-                href="/menu"
+                href="https://app.cartamovil.com/calgallisa/14384/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
